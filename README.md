@@ -22,61 +22,61 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 
 - definition that a class / type that is parameterized by a generic type, `T`:
 ```
-your exemplifying line from the Pair example here
+public class Pair<T>
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/Pair.java)
 
 
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-your exemplifying line from the Pair example here
+private T first;
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/Pair.java)
 
 
 - assignment to such a variable:
 ```
-your exemplifying line from the Pair example here
+this.first =  first;
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/Pair.java)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+public T getFirst()  { return first; }
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/Pair.java)
 
 
 - successful instantiation of an instance of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair pair = new Pair(new T(), new T());
 ```
-in [class](URL)
+in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
 
 - *un*successful instantiation of an instance of such a class,
 caught by the compiler:
 ```
-your exemplifying line from the Pair example here
+Pair pair = new Pair(0, 1);
 ```
-in [class](URL)
+in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
 
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+Pair pair = new T();
 ```
-in [class](URL)
+in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
 
 - the declaration of a method that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+new Pair(new T(), new T());
 ```
-in [class](URL)
+in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
 
 - the declaration of a method that returns a value of a generic type:
