@@ -67,7 +67,7 @@ in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_gen
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-Pair pair = new T();
+pair.first = new T();
 ```
 in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
@@ -81,7 +81,7 @@ in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_gen
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+pair.getFirst();
 ```
-in [class](URL)
+in [FibPair](https://github.com/stuyvesant-cs/skeletonsHolmes/blob/master/5D_genericTypes/FibPair/FibPair.java)
 
